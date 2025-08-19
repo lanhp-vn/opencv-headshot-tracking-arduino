@@ -11,7 +11,7 @@ This project implements a finger counting game using advanced computer vision te
 
 The system integrates OpenCV face detection, MediaPipe hand tracking, and Arduino servo control to create a unique interactive experience that bridges digital computer vision with physical hardware control.
 
-## 🔧 Hardware Components
+## Hardware Components
 
 ### Required Equipment
 | Component | Quantity | Purpose |
@@ -30,6 +30,8 @@ The system uses a pan-tilt mechanism controlled by two servo motors:
 - **Safety feature**: 10K potentiometer reduces laser intensity for eye protection
 
 ![Hardware Setup](Figures/assemble_setup.jpg)
+
+![Final Setup](final_product.jpg)
 
 ## Software Architecture
 
