@@ -2,7 +2,7 @@
 
 An interactive computer vision game that combines real-time face tracking, hand gesture recognition, and Arduino-controlled laser positioning for an immersive gaming experience.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a finger counting game using advanced computer vision techniques where players must:
 - Navigate their face to find hidden safe zones while being tracked by a laser pointer
@@ -31,7 +31,7 @@ The system uses a pan-tilt mechanism controlled by two servo motors:
 
 ![Hardware Setup](Figures/assemble_setup.jpg)
 
-## 💻 Software Architecture
+## Software Architecture
 
 ### Core Technologies
 - **Python 3.x** - Main programming language
@@ -70,7 +70,7 @@ Game Flow:
 4. Win Condition → Find all zones within 60 seconds
 ```
 
-## 🎮 Game Features
+## Game Features
 
 ### Interactive Elements
 - **Face Tracking**: Laser follows player's face in real-time
@@ -85,7 +85,7 @@ Game Flow:
 - **Response Time**: <100ms from detection to servo movement
 - **Finger Recognition**: 90%+ accuracy for clear hand gestures
 
-## 📋 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 ```bash
@@ -109,7 +109,7 @@ pip install numpy
 3. Connect Arduino with proto shield
 4. Wire potentiometer for laser intensity control
 
-## 🚀 Usage
+## Usage
 
 ### Running the Game
 ```bash
@@ -128,7 +128,7 @@ python MAIN.py
 - **Background**: Minimal clutter for better detection
 - **Hand Position**: Clear view of dominant hand
 
-## 📊 Results & Performance
+## Results & Performance
 
 ### Technical Achievements
 - Successfully integrated 3 computer vision algorithms
@@ -140,31 +140,9 @@ python MAIN.py
 - **Average Game Duration**: 45-60 seconds
 - **Player Success Rate**: ~60% (varies by math difficulty)
 - **Safe Zone Detection**: Instant response when face enters zone
-- **Challenge Frequency**: Every 5 seconds during gameplay
+- **Challenge Frequency**: Every 5 seconds during gamepla
 
-### Demo Performance
-![Final Product](final_product.jpg)
-
-The system demonstrates smooth real-time operation with:
-- Continuous face tracking and laser positioning
-- Accurate finger counting for equation solving
-- Responsive safe zone detection
-- Stable servo control throughout gameplay
-
-## 🎯 Applications
-
-### Educational Use Cases
-- **STEM Education**: Demonstrates computer vision, robotics, and programming integration
-- **Interactive Learning**: Engaging way to practice mental math
-- **Technology Demonstration**: Showcases real-world CV applications
-
-### Technical Applications
-- **Surveillance Systems**: Automated tracking for security applications
-- **Robotics**: Object following and interaction systems
-- **Industrial Automation**: Vision-guided robotic control
-- **Research Platform**: Computer vision algorithm testing
-
-## 🔧 Technical Considerations
+## Technical Considerations
 
 ### Limitations
 - **Multiple Faces**: System optimized for single-user operation
@@ -178,17 +156,8 @@ The system demonstrates smooth real-time operation with:
 - **Emergency Stop**: 'Q' key immediately terminates program
 - **Servo Limits**: Software constraints prevent mechanical damage
 
-## 👥 Contributors
 
-**Headshot Tracking Team - Fulbright University Vietnam**
-- **Pham Dang Yen Nhi** - Computer Vision & Game Logic
-- **Nguyen Thanh Long** - Arduino Integration & Hardware
-- **Pham Hoang Lan** - System Architecture & Documentation
-
-**Instructor**: Prof. Duong Phung  
-**Course**: Computer Vision Spring 2023
-
-## 📚 References
+## References
 
 - [OpenCV Documentation](https://docs.opencv.org/)
 - [MediaPipe Solutions](https://google.github.io/mediapipe/)
@@ -196,11 +165,6 @@ The system demonstrates smooth real-time operation with:
 - [Arduino Servo Library](https://www.arduino.cc/reference/en/libraries/servo/)
 - [Computer Vision Zone](https://www.computervision.zone/)
 
-## 📄 License
-
-This project is developed for educational purposes as part of a Computer Vision course at Fulbright University Vietnam. Feel free to use and modify for academic and non-commercial applications.
-
-## 🚀 Future Enhancements
 
 - **Multi-player Support**: Extended tracking for multiple users
 - **Advanced Gestures**: Recognition of complex hand movements
